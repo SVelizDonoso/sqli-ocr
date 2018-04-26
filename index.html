@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sqlinjection Level God">
+    <meta name="author" content="svelizdonoso">
+
+    <title>Sql Injection Level God</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.Jcrop.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    
+  </head>
+
+<body class="step1">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SQLinjection OCR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+		<br>
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-5">
+				<input type="file" onchange="load_file()" id="picker">		
+				<div id="main"><br><br>
+					<div id="nose">
+						<br><br>
+						<h1>Por Favor Cargue la Patente.</h1>
+					</div>
+					
+				</div>
+		  
+        </div>
+
+        <div class="col-md-4">
+			<table border='0'>
+			<tr> 
+			<td><h2>Patente:</h2></td><td><h2 id="transcription"></h2></td>
+			</tr>
+			<tr> 
+			<td><h3>Resultado:</h3></td><td><div id="result"></div></td>
+			</tr>
+			<tr> 
+			<td colspan='2'><div id="barrera" ><img class="img-fluid" id="pass" src="img/static.png" height="200" width="250"></div></td>
+			</tr>
+		</table>
+			
+			
+        </div>
+		<div class="col-md-3">
+			<div id="table_patente" ></div>
+			<div id="query" ></div>
+		</table>
+			
+			
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    
+      <h3 class="my-4">Patentes de Prueba</h3>
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/1.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/2.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/3.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/4.jpg" alt="">
+          </a>
+        </div>
+		 <div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/5.jpg" alt="">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 mb-4">
+          <a href="#">
+            <img class="img-fluid" src="img/6.jpg" alt="">
+          </a>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; @svelizdonoso 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/ocrad.js"></script>
+<script src='js/vendor/sql.js'></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
