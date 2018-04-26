@@ -1,10 +1,13 @@
 # SQLI OCR
 
-<img src="https://preview.ibb.co/jZK0Jc/Capturasss.png" >
+<img src="https://i.pinimg.com/originals/63/e0/f4/63e0f49e6ad09732790967349d286864.jpg" >
 
 El siguiente articulo tiene por objetivo poner a prueba un mito que se encuentra hace mucho tiempo en internet, se trata de la inyección SQL nivel Dios. El nombre es bastante llamativo y exagerado, no lo invente yo, simplemente estaba definido de esa manera hace años en internet, personalmente para mí, simplemente se trata de una inyección SQL en OCR.
 
+
+
 #PoC Online
+<img src="https://preview.ibb.co/jZK0Jc/Capturasss.png" >
 https://svelizdonoso.github.io/sqli-ocr/index.html
 
 # Dependencias
